@@ -3,7 +3,7 @@
 const numeri = [11, 22, 33, 44, 55, 66, 77, 88, 99];
 console.log(numeri);
 
-const sommaPosizioneDispari =  () => {
+const sommaPosizioneDispari = () => {
   let somma = 0;
   for (let i = 0; i < numeri.length; i++) {
     if (i % 2 !== 0) {
